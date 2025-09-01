@@ -73,5 +73,9 @@ console.log(p)
 
 
 // what is hosting?
-// what is scope?
+// -> “JavaScript lifts all declarations (variables and functions) 
+//     to the top of their scope before running the code, 
+//     but only variables get undefined if not initialized, while functions work fully.”
 
+// what is scope?
+// -> "Where a variable/function can be accessed (global, function, block)"
