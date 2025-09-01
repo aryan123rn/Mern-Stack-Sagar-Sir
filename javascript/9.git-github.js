@@ -10,5 +10,25 @@
 
 
 //! initailize git repository
-//* git init => initialize repo into a local file and to track this repository 
+//* git init => initialize git repo locally (project folder) & to track this repository 
+//* git clone <remote_repo_url>
+
+
+//! connect with remote repository
+//* git remote -v -> list remote repositories
+//* git remote add origin <repo_url> -> connect local and remote repositories
+//* git remote origin => removes remote repo
+
+
+//! Workflow
+//TOTO: Working directory [WB] -> Local Repository -> Remote Repository
+
+
+//* git status
+//* git add <file_path> -> add single file to staging area / stage single file
+//* git add . -> add all file to staging area / stage all file
+//* git commit -m "<commit_message>" ->
+//* git push origin <branch_name> -> push local repo to remote repo
+
+
 
