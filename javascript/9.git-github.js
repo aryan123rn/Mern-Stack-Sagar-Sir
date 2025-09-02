@@ -21,14 +21,27 @@
 
 
 //! Workflow
-//TOTO: Working directory [WB] -> Local Repository -> Remote Repository
+//TODO: Working directory [WB] -> Local Repository -> Remote Repository
 
 
-//* git status
+//! git status
+//* git status -> <file_path -> add single file to staging area / stage single file
 //* git add <file_path> -> add single file to staging area / stage single file
 //* git add . -> add all file to staging area / stage all file
 //* git commit -m "<commit_message>" ->
 //* git push origin <branch_name> -> push local repo to remote repo
+
+//* Branch
+//* git branch -> list all branches
+//* git branch <branch_name> -> create new branch
+//* git checkout <branch_name> -> switch branch
+//* git checkout -b <new_branch_name> -> create new branch + switch
+//* git checkout -d <branch_name> -> delete branch locally
+
+// !meriging
+//* git pull <branch_name>
+//* git merge <branch_name>
+
 
 
 
