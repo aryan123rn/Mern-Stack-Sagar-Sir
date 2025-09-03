@@ -38,10 +38,12 @@
 //* git checkout -b <new_branch_name> -> create new branch + switch
 //* git checkout -d <branch_name> -> delete branch locally
 
-// !meriging
+// !merging
 //* git pull <branch_name>
 //* git merge <branch_name>
 
 
-
-
+//! Stash
+//* git stash -> store current changes to stash (hiden data)
+//* git stash pop -> aply stashed changes to WD (to view hidden data)
+//* git status list -> list all stash branch
