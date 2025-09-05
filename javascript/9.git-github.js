@@ -47,3 +47,14 @@
 //* git stash -> store current changes to stash (hiden data)
 //* git stash pop -> aply stashed changes to WD (to view hidden data)
 //* git status list -> list all stash branch
+
+
+//!  git revert
+//* git log to view ID to revert
+//* git revert "commit_ID"
+//* git revert --abort "ID"
+//* git revert --abort "ID"
+
+
+
+//? What to write in a commit?

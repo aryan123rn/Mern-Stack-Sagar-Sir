@@ -34,9 +34,19 @@ console.log(y)
 
 // ! const
 //* hoisted but is in TDZ (temporal dead zone)
-
 // console.log(z)
 
 const z = 300
 
 console.log(z)
+
+
+//* functioni expression
+console.log(func1)
+
+func1()//typeError
+
+var func1 = function () [
+    console.log('var funcition')
+]
+ 
